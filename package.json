@@ -1,0 +1,20 @@
+{
+  "name": "template-mern",
+  "version": "1.0.0",
+  "description": "Template repository for MERN stack projects.",
+  "homepage": "https://github.com/mhmkhizar/template-mern#readme",
+  "bugs": {
+    "url": "https://github.com/mhmkhizar/template-mern/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhmkhizar/template-mern.git"
+  },
+  "license": "MIT",
+  "author": "Muhammad Khizar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
