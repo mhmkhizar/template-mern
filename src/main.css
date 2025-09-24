@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@import url("./assets/styles/theme.css");
+@import url("./assets/styles/variables.css");
+
+/* *BUTTON-SIZES* */
+
+.button-2xs {
+  @apply px-1 py-0.5;
+}
+
+.button-xs {
+  @apply px-2 py-1;
+}
+
+.button-sm {
+  @apply px-4 py-2;
+}
+
+.button-md {
+  @apply px-6 py-3;
+}
+
+.button-lg {
+  @apply px-8 py-4;
+}
+
+.button-xl {
+  @apply px-10 py-5;
+}
+
+.button-2xl {
+  @apply px-12 py-6;
+}
+
+/* *ICON* */
+
+.material-symbols-rounded {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
+}
+
+.icon-fill {
+  font-variation-settings: "FILL" 1;
+}
+
+.icon-wght-300 {
+  font-variation-settings: "wght" 300;
+}
+
+.icon-wght-200 {
+  font-variation-settings: "wght" 200;
+}
+
+.icon-wght-100 {
+  font-variation-settings: "wght" 100;
+}
+
+/* *SCROLLBAR* */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  border: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(255, 255, 255, 0.7);
+}
